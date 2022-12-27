@@ -1,0 +1,24 @@
+<svg width="753" height="325" viewBox="0 0 753 325" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="741" y="266" width="12" height="36" fill="#0076BE"/>
+<line x1="746" y1="320" x2="713" y2="320" stroke="#0076BE" stroke-width="2"/>
+<line x1="713" y1="320" x2="680" y2="320" stroke="#0076BE" stroke-width="2" stroke-dasharray="4 4"/>
+<line x1="747" y1="266" x2="747" y2="233" stroke="#0076BE" stroke-width="2" stroke-dasharray="4 4"/>
+<line x1="747" y1="291" x2="747" y2="321" stroke="#0076BE" stroke-width="2"/>
+<rect y="34" width="10" height="33" fill="#0076BE"/>
+<rect x="33" y="325" width="10" height="33" transform="rotate(-90 33 325)" fill="#0076BE"/>
+<rect x="10" y="264" width="10" height="33" transform="rotate(180 10 264)" fill="#0076BE"/>
+<line x1="5" y1="41" x2="5" y2="5" stroke="#0076BE" stroke-width="2"/>
+<line x1="40" y1="320" x2="4" y2="320" stroke="#0076BE" stroke-width="2"/>
+<line x1="6" y1="6" x2="21" y2="6" stroke="#0076BE" stroke-width="2"/>
+<line x1="21" y1="6" x2="61" y2="6" stroke="#0076BE" stroke-width="2" stroke-dasharray="4 4"/>
+<line x1="185" y1="6" x2="405" y2="6" stroke="#0076BE" stroke-width="2" stroke-dasharray="9 9"/>
+<line x1="395" y1="320" x2="680" y2="320" stroke="#0076BE" stroke-width="2" stroke-dasharray="7 7"/>
+<line x1="5" y1="304" x2="5" y2="264" stroke="#0076BE" stroke-width="2" stroke-dasharray="4 4"/>
+<line x1="5" y1="52" x2="5" y2="92" stroke="#0076BE" stroke-width="2" stroke-dasharray="4 4"/>
+<line x1="51" y1="320" x2="91" y2="320" stroke="#0076BE" stroke-width="2" stroke-dasharray="4 4"/>
+<rect x="693" y="12" width="12" height="36" transform="rotate(-90 693 12)" fill="#0076BE"/>
+<line x1="747" y1="7" x2="747" y2="40" stroke="#0076BE" stroke-width="2"/>
+<line x1="747" y1="40" x2="747" y2="73" stroke="#0076BE" stroke-width="2" stroke-dasharray="4 4"/>
+<line x1="693" y1="6" x2="660" y2="6" stroke="#0076BE" stroke-width="2"/>
+<line x1="718" y1="6" x2="748" y2="6" stroke="#0076BE" stroke-width="2"/>
+</svg>

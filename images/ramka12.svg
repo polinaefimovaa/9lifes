@@ -1,0 +1,16 @@
+<svg width="376" height="200" viewBox="0 0 376 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="10" y="134" width="33" height="10" transform="rotate(90 10 134)" fill="#0076BE"/>
+<line x1="5" y1="200" x2="5" y2="110" stroke="#0076BE" stroke-width="2"/>
+<line x1="40" y1="199" x2="5" y2="199" stroke="#0076BE" stroke-width="2" stroke-dasharray="7 7"/>
+<line x1="203" y1="199" x2="128" y2="199" stroke="#0076BE" stroke-width="2" stroke-dasharray="7 7"/>
+<rect x="70" y="10" width="33" height="10" transform="rotate(-180 70 10)" fill="#0076BE"/>
+<line x1="4" y1="5" x2="39" y2="5" stroke="#0076BE" stroke-width="2"/>
+<line x1="118" y1="5" x2="207" y2="4.99999" stroke="#0076BE" stroke-width="2"/>
+<line x1="5" y1="40" x2="5" y2="5" stroke="#0076BE" stroke-width="2" stroke-dasharray="7 7"/>
+<rect x="376" y="130" width="33" height="10" transform="rotate(90 376 130)" fill="#0076BE"/>
+<line x1="372" y1="199" x2="337" y2="199" stroke="#0076BE" stroke-width="2"/>
+<line x1="371" y1="163" x2="371" y2="198" stroke="#0076BE" stroke-width="2" stroke-dasharray="7 7"/>
+<rect x="366" y="70" width="33" height="10" transform="rotate(-90 366 70)" fill="#0076BE"/>
+<line x1="371" y1="4" x2="371" y2="80" stroke="#0076BE" stroke-width="2"/>
+<line x1="336" y1="5" x2="371" y2="5" stroke="#0076BE" stroke-width="2" stroke-dasharray="7 7"/>
+</svg>
