@@ -1,183 +1,195 @@
 h2 {
-  font-size: 22px;
+  font-size: 1.53vw;
   color: white;
-  line-height: 26px;
+  line-height: 1.8vw;
 }
 h3 {
-  font-size: 20px;
+  font-size: 1.4vw;
   color: white;
   font-weight: bold;
 }
 h4 {
-  font-size: 16px;
+  font-size: 1.1vw;
   color: white;
 }
 h5 {
-  font-size: 14px;
+  font-size: 0.967vw;
   color: white;
   display: inline-block;
 }
 /*   синяя деталь  */
 .border, .setka11 >div {
-  border: 4px solid #0076BE;
+  border: 0.27vw solid #0076BE;
 }
 .shtuka2, .shtuka {
-  width: 1440px;
-  height: 31px;
+  width: 99.6vw;
+  height: 1.45vw;
 }
 .shtuka {
-  padding-top: 29px;
-  margin-left: 11px;
+  padding-top: 2vw;
+  margin-left: 0.7vw;
 }
 .shtuka > div, .shtuka2 > div {
-  width:45px;
-  height: 23px;
+  width: 3.125vw;
+  height: 1.57vw;
   display: inline-block;
-  margin-left: -6px;
+  margin-left: -0.5vw;
 }
 .shtuka div:nth-of-type(2), .shtuka2 div:nth-of-type(2) {
-  width: 1309px;
-  height: 23px;
+  width: 90.903vw;
+  height: 1.57vw;
+  overflow: hidden;
 }
 .shtuka1 {
-  width: 1309px;
-  height: 26px;
+  width: 90.9vw;
+  height: 2vw;
   background: url('../images/shtuka.svg');
+  background-size: 100vw;
 }
   /*  панель  */
 .panel {
-  width: 100%;
-  height: 630px;
+  width: 100vw;
+  height: 55.5vw;
 }
 /* приветствие */
 .privet {
-  width: 831px;
-  height:254px;
+  width: 57.7vw;
+  height: 18vw;
   display: inline-block;
 }
 .ramka {
-  width: 752px;
-  height: 205px;
+  width: 53.7vw;
+  height: 15.6vw;
   background: url('../images/ramka1.svg');
-  margin-top: 43px;
-  margin-left: 62px;
-  padding: 12px 0;
+  background-size: 52.2vw;
+  margin-top: 3.7vw;
+  margin-left: 4.3vw;
+  padding: 0.8vw 0;
   background-repeat: no-repeat;
 }
 /* * {
   box-sizing: border-box;
 } */
 .ramka1 {
-  border: 4px solid #0076BE;
+  border: 0.27vw solid #0076BE;
 }
 .ramka1 {
-  width:712px;
-  height: 169px;
-  margin: 0 auto;
+  width: 49.3vw;
+  height: 11.8vw;
+  margin: 0 1.21vw;
   overflow: hidden;
 }
 .ramka1 > .setka {
-  width: 716px;
-  height:170px;
-  margin-top: -1px;
-  margin-left: -2px;
-  padding: 20px 0;
+  width: 101vw;
+  height:101vw;
+  margin-left: -0.3vw;
+  margin-top: -0.1vw;
+  padding: 1.35vw 0;
   background: url('../images/setka.svg');
+  background-size: 50vw;
 }
 .setka > h2 {
-  margin-left: 25px;
+  margin-top: 0.1vw;
+  margin-left: 1.8vw;
 }
 
 /* карта */
 .map1 {
-  width: 609px;
-  height: 400px;
+  width: 42vw;
+  height: 28.7vw;
   display: inline-block;
   float:right;
 }
 .ram{
-  width:530px;
-  height: 361px;
-  margin-top: 35px;
-  margin-left: 18px;
-  padding: 18px 0;
+  width: 37vw;
+  height: 23vw;
+  margin-top: 3.2vw;
+  margin-left: 1.1vw;
+  padding: 1.1vw 0;
   background: url('../images/ramka2.svg');
+  background-size: 36.7vw;
   background-repeat: no-repeat;
 }
 .ram > .ramka1 {
-  width: 487px;
-  height: 318px;
-  margin-left: 18px;
+  width: 33.7vw;
+  height: 22.1vw;
+  margin-left: 1.1vw;
 }
 .ram > .ramka1 > .map{
-  width:487px;
-  height: 319px;
-  margin-left: -1px;
-  margin-top: -2px;
-  padding: 130px 283px;
+  width: 36vw;
+  height: 23vw;
+  padding: 8.9vw 0;
   background: url('../images/map.svg');
+  background-size: 33.9vw;
 }
 .circle{
-  width: 9px;
-  height: 5px;
+  width: 0.7vw;
+  height: 0.2vw;
   border-radius: 100%;
-  padding: 2px 0;
+  padding: 0.2vw 0;
+  margin-left: 19.5vw;
   background: #D65B34;
 }
 .circle > div {
-  width:3px;
-  height: 3px;
-  border: 1px solid #2B2A2B;
-  margin: 0 auto;
+  width: 0.31vw;
+  height: 0.3vw;
+  border: 0.01vw solid #2B2A2B;
+  margin: -0.08vw auto;
   border-radius: 100%;
 }
 /* кнопки */
 .knopki {
-  width: 831px;
-  height: 372px;
+  width: 58vw;
+  height: 26vw;
   display: inline-block;
 }
 .knopki1 {
-  width: 753px;
-  height: 325px;
-  margin-top: 8px;
-  margin-left: 62px;
-  padding: 17px 0;
+  width: 53vw;
+  height: 21vw;
+  margin-top: 0.9vw;
+  margin-left: 4.3vw;
+  padding: 1.2vw 0;
   background: url('../images/ramka3.svg');
+  background-size: 52.3vw;
   background-repeat: no-repeat;
 }
 .knopki1 > .ramka1 {
-  width: 712px;
-  height: 283px;
-  margin: 0 auto;
+  width: 49.5vw;
+  height: 19.6vw;
+  margin: 0 1.1vw;
 }
 .knopki1 > .ramka1 > div:nth-of-type(1) {
-  width: 660px;
-  height: 42px;
-  margin-top: 24px;
-  margin-left: 21px;
+  width: 45.9vw;
+  height: 3vw;
+  margin-top: 1.7vw;
+  margin-left: 1.6vw;
 }
 /* круглые кнопки */
 .setka1 {
-  width: 663px;
-  height: 46px;
+  width: 46.2vw;
+  height: 3vw;
   background: url('../images/setka1.svg');
-  margin-left: -2px;
-  margin-top: -4px;
-  padding: 15px 0;
+  background-size: 47.2vw;
+  margin-left: -0.2vw;
+  margin-top: -0.27vw;
+  padding: 0.9vw 0;
 }
 .setka11 {
-  width: 650px;
-  height: 22px;
-  margin-left: 22px;
+  width: 45.3vw;
+  height: 1.6vw;
+  margin-left: 1.66vw;
+  margin-top: 0.1vw;
 }
 .setka11 > div {
-  width: 13px;
-  height: 13px;
+  width: 1vw;
+  height: 1vw;
   border-radius: 100%;
   display: inline-block;
   background: #2B2A2B;
-  margin-left: 2.4px;
+  margin-left: 0.095vw;
+}
+.setka11 > div:nth-of-type(1) {
+  margin-left: 0vw;
 }
 .c01 {
   animation: crug .9s alternate infinite;
@@ -190,12 +202,12 @@ h5 {
 }
 
 @keyframes crug {
-  0% {border: 4px solid #0076BE;}
-  25% {border: 4px solid #D65B34;}
+  0% {border: 0.27vw solid #0076BE;}
+  25% {border: 0.27vw solid #D65B34;}
 }
 @keyframes crug1 {
-  0% {border: 4px solid #0076BE;}
-  50% {border: 4px solid #D65B34;}
+  0% {border: 0.27vw solid #0076BE;}
+  50% {border: 0.27vw solid #D65B34;}
 }
 .c01 {
   animation: c01 2s alternate infinite;
@@ -255,151 +267,153 @@ h5 {
   animation: c19 2s alternate infinite;
 }
 @keyframes c01 {
-  4% { border: 4px solid #0076BE;}
-  5% { border: 4px solid #D65B34;}
-  100% { border: 4px solid #D65B34;}
+  4% { border: 0.27vw solid #0076BE;}
+  5% { border: 0.27vw solid #D65B34;}
+  100% { border: 0.27vw solid #D65B34;}
 }
 @keyframes c02 {
-  9% { border: 4px solid #0076BE;}
-  10% { border: 4px solid #D65B34;}
-  100% { border: 4px solid #D65B34;}
+  9% { border: 0.27vw solid #0076BE;}
+  10% { border: 0.27vw solid #D65B34;}
+  100% { border: 0.27vw solid #D65B34;}
 }
 @keyframes c03 {
-  14% { border: 4px solid #0076BE;}
-  15% { border: 4px solid #D65B34;}
-  100% { border: 4px solid #D65B34;}
+  14% { border: 0.27vw solid #0076BE;}
+  15% { border: 0.27vw solid #D65B34;}
+  100% { border: 0.27vw solid #D65B34;}
 }
 @keyframes c04 {
-  19% { border: 4px solid #0076BE;}
-  20% { border: 4px solid #D65B34;}
-  100% { border: 4px solid #D65B34;}
+  19% { border: 0.27vw solid #0076BE;}
+  20% { border: 0.27vw solid #D65B34;}
+  100% { border: 0.27vw solid #D65B34;}
 }
 @keyframes c05 {
-  24% { border: 4px solid #0076BE;}
-  25% { border: 4px solid #D65B34;}
-  100% { border: 4px solid #D65B34;}
+  24% { border: 0.27vw solid #0076BE;}
+  25% { border: 0.27vw solid #D65B34;}
+  100% { border: 0.27vw solid #D65B34;}
 }
 @keyframes c06 {
-  29% { border: 4px solid #0076BE;}
-  30% { border: 4px solid #D65B34;}
-  100% { border: 4px solid #D65B34;}
+  29% { border: 0.27vw solid #0076BE;}
+  30% { border: 0.27vw solid #D65B34;}
+  100% { border: 0.27vw solid #D65B34;}
 }
 @keyframes c07 {
-  34% { border: 4px solid #0076BE;}
-  35% { border: 4px solid #D65B34;}
-  100% { border: 4px solid #D65B34;}
+  34% { border: 0.27vw solid #0076BE;}
+  35% { border: 0.27vw solid #D65B34;}
+  100% { border: 0.27vw solid #D65B34;}
 }
 @keyframes c08 {
-  39% { border: 4px solid #0076BE;}
-  40% { border: 4px solid #D65B34;}
-  100% { border: 4px solid #D65B34;}
+  39% { border: 0.27vw solid #0076BE;}
+  40% { border: 0.27vw solid #D65B34;}
+  100% { border: 0.27vw solid #D65B34;}
 }
 @keyframes c09 {
-  44% { border: 4px solid #0076BE;}
-  45% { border: 4px solid #D65B34;}
-  100% { border: 4px solid #D65B34;}
+  44% { border: 0.27vw solid #0076BE;}
+  45% { border: 0.27vw solid #D65B34;}
+  100% { border: 0.27vw solid #D65B34;}
 }
 @keyframes c10 {
-  49% { border: 4px solid #0076BE;}
-  50% { border: 4px solid #D65B34;}
-  100% { border: 4px solid #D65B34;}
+  49% { border: 0.27vw solid #0076BE;}
+  50% { border: 0.27vw solid #D65B34;}
+  100% { border: 0.27vw solid #D65B34;}
 }
 @keyframes c11 {
-  54% { border: 4px solid #0076BE;}
-  55% { border: 4px solid #D65B34;}
-  100% { border: 4px solid #D65B34;}
+  54% { border: 0.27vw solid #0076BE;}
+  55% { border: 0.27vw solid #D65B34;}
+  100% { border: 0.27vw solid #D65B34;}
 }
 @keyframes c12 {
-  59% { border: 4px solid #0076BE;}
-  60% { border: 4px solid #D65B34;}
-  100% { border: 4px solid #D65B34;}
+  59% { border: 0.27vw solid #0076BE;}
+  60% { border: 0.27vw solid #D65B34;}
+  100% { border: 0.27vw solid #D65B34;}
 }
 @keyframes c13 {
-  64% { border: 4px solid #0076BE;}
-  65% { border: 4px solid #D65B34;}
-  100% { border: 4px solid #D65B34;}
+  64% { border: 0.27vw solid #0076BE;}
+  65% { border: 0.27vw solid #D65B34;}
+  100% { border: 0.27vw solid #D65B34;}
 }
 @keyframes c14 {
-  69% { border: 4px solid #0076BE;}
-  70% { border: 4px solid #D65B34;}
-  100% { border: 4px solid #D65B34;}
+  69% { border: 0.27vw solid #0076BE;}
+  70% { border: 0.27vw solid #D65B34;}
+  100% { border: 0.27vw solid #D65B34;}
 }
 @keyframes c15 {
-  74% { border: 4px solid #0076BE;}
-  75% { border: 4px solid #D65B34;}
-  100% { border: 4px solid #D65B34;}
+  74% { border: 0.27vw solid #0076BE;}
+  75% { border: 0.27vw solid #D65B34;}
+  100% { border: 0.27vw solid #D65B34;}
 }
 @keyframes c16 {
-  79% { border: 4px solid #0076BE;}
-  80% { border: 4px solid #D65B34;}
-  100% { border: 4px solid #D65B34;}
+  79% { border: 0.27vw solid #0076BE;}
+  80% { border: 0.27vw solid #D65B34;}
+  100% { border: 0.27vw solid #D65B34;}
 }
 @keyframes c17 {
-  84% { border: 4px solid #0076BE;}
-  85% { border: 4px solid #D65B34;}
-  100% { border: 4px solid #D65B34;}
+  84% { border: 0.27vw solid #0076BE;}
+  85% { border: 0.27vw solid #D65B34;}
+  100% { border: 0.27vw solid #D65B34;}
 }
 @keyframes c18 {
-  89% { border: 4px solid #0076BE;}
-  90% { border: 4px solid #D65B34;}
-  100% { border: 4px solid #D65B34;}
+  89% { border: 0.27vw solid #0076BE;}
+  90% { border: 0.27vw solid #D65B34;}
+  100% { border: 0.27vw solid #D65B34;}
 }
 @keyframes c19 {
-  94% { border: 4px solid #0076BE;}
-  95% { border: 4px solid #D65B34;}
-  100% { border: 4px solid #D65B34;}
+  94% { border: 0.27vw solid #0076BE;}
+  95% { border: 0.27vw solid #D65B34;}
+  100% { border: 0.27vw solid #D65B34;}
 }
 .knopki1 > .ramka1 > div:nth-of-type(2) {
-  width: 308px;
-  height: 121px;
-  margin-top: 16px;
-  margin-left: 21px;
+  width: 21.3vw;
+  height: 8.4vw;
+  margin-top: 1.1vw;
+  margin-left: 1.6vw;
   display: inline-block;
 }
 /* информация - табло */
 .setka2 {
-  width: 316px;
-  height: 129px;
+  width: 23vw;
+  height: 7vw;
   background: url('../images/setka2.svg');
-  margin-left: -3px;
-  margin-top: -4px;
-  padding: 23px 0;
+  margin-left: -0.3vw;
+  margin-top: -0.26vw;
+  padding: 1.6vw 0;
+}
+.setka2 > div:nth-of-type(2),.setka2 > div:nth-of-type(3), .setka2 > div:nth-of-type(4) {
+  margin-top: 0.4vw;
 }
 .setka2 > div > h4:nth-of-type(2n+1) {
-  height: 22px;
   font-weight: bold;
-  margin-left: 13px;
+  margin-left: 1vw;
   display: inline-block;
 }
 .setka2 > div > h4:nth-of-type(2n+2) {
-  height:22px;
   font-weight: normal;
   display: inline-block;
 }
+
 /* прямоугольные кнопки */
 .knopochki {
-  width: 337px;
-  height: 129px;
+  width: 23vw;
+  height: 10.2vw;
   display: inline-block;
-  margin-left: 6px;
+  margin-left: -0.8vw;
 }
 .knopochki > div {
-  width:338px;
-  height:33px;
+  width: 24vw;
+  height: 2.3vw;
 }
 .knopochki > div:nth-of-type(2), .knopochki > div:nth-of-type(3) {
-  margin-top: 15px;
+  margin-top: 1.1vw;
 }
 .kn {
-  width: 47px;
-  height: 25px;
-  border: 4px solid #0076BE;
-  margin-left: 6px;
+  width: 3.2vw;
+  height: 1.6vw;
+  border: 0.27vw solid #0076BE;
+  margin-left: 0.5vw;
   display: inline-block;
   background: #2B2A2B;
 }
 .knopochki > div > div:nth-of-type(1) {
-  margin-left: 0px;
+  margin-left: 0.07vw;
 }
 .kn:hover {
   background: #0076BE;
@@ -407,229 +421,231 @@ h5 {
 }
 /* ползунки */
 .polzunki {
-  width: 679px;
-  height: 23px;
-  margin-left: 19px;
-  margin-top: 13px;
+  width: 46.7vw;
+  height: 10vw;
+  margin-left: 1.3vw;
+  margin-top: -0.08vw;
 }
 .polzunok {
-  width: 216px;
-  height: 23px;
-  padding: 8px 0;
+  width: 15vw;
+  height: 1.7vw;
+  padding: 0.4vw 0;
   display: inline-block;
 }
 .p1 {
-  width: 214px;
-  height: 9px;
-  border: 1px solid #0076BE;
-  margin-left: 2px;
+  width: 14.9vw;
+  height: 0.6vw;
+  border: 0.1vw solid #0076BE;
+  margin-left: 0.15vw;
 }
 .p {
-  height: 3px;
+  height: 0.2vw;
   background: #0076BE;
-  margin-left: 6px;
-  margin-top: -7px;
+  margin-left: 0.5vw;
+  margin-top: -0.5vw;
 }
 .p01 {
-  width: 174px;
   animation: p01 2s linear infinite;
 }
 .p02 {
-  width: 89px;
   animation: p02 4s linear infinite;
 }
 .p03 {
-  width: 26px;
   animation: p03 3s linear infinite;
 }
 .c{
-  width: 13px;
-  height: 13px;
-  border: 5px solid #D65B34;
+  width: 1vw;
+  height: 1vw;
+  border: 0.3vw solid #D65B34;
   background: #2B2A2B;
-  margin-top: -13px;
+  margin-top: -1vw;
   border-radius: 100%;
 }
 .c1 {
-  margin-left: 178px;
+  margin-left: 12.5vw;
   animation: c1 2s linear infinite;
 }
 @keyframes c1 {
-  0% {margin-left: 10px;}
-  50% {margin-left: 190px;}
-  100% {margin-left: 10px;}
+  0% {margin-left: 1.5vw;}
+  50% {margin-left: 12.5vw;}
+  100% {margin-left: 1.5vw;}
 }
 @keyframes p01 {
-  0% {width: 5px;}
-  50% {width: 185px;}
-  100% {width: 5px;}
+  0% {width: 1vw;}
+  50% {width: 12.3vw;}
+  100% {width: 1vw;}
 }
 .c2 {
-  margin-left: 93px;
   animation: c2 4s linear infinite;
 }
 .polzunok:hover > .p01, .polzunok:hover > .c1 {
   animation-play-state: paused;
 }
 @keyframes c2 {
-  0% {margin-left: 190px;}
-  50% {margin-left: 10px;}
-  100% {margin-left: 190px;}
+  0% {margin-left: 12.5vw;}
+  50% {margin-left: 1.5vw;}
+  100% {margin-left: 12.5vw;}
 }
 @keyframes p02 {
-  0% {width: 185px;}
-  50% {width: 5px;}
-  100% {width: 185px;}
+  0% {width: 12.3vw;}
+  50% {width: 1vw;}
+  100% {width: 12.3vw;}
 }
 .polzunok:hover > .p02, .polzunok:hover > .c2 {
   animation-play-state: paused;
 }
 .c3 {
-  margin-left: 31px;
   animation: c3 3s linear infinite;
 }
 @keyframes c3 {
-  0% {margin-left: 10px;}
-  50% {margin-left: 190px;}
-  100% {margin-left: 10px;}
+  0% {margin-left: 1vw;}
+  50% {margin-left: 12.5vw;}
+  100% {margin-left: 1vw;}
 }
 @keyframes p03 {
-  0% {width: 5px;}
-  50% {width: 185px;}
-  100% {width: 5px;}
+  0% {width: 2vw;}
+  50% {width: 12.3vw;}
+  100% {width: 2vw;}
 }
 .polzunok:hover > .p03, .polzunok:hover > .c3 {
   animation-play-state: paused;
 }
 /* город */
 .city {
-  width: 368px;
-  height: 230px;
+  width: 36vw;
+  height: 11.7vw;
   display: inline-block;
-  margin-top: -234px;
-  margin-right: 241px;
+  margin-top: -12.4vw;
+  margin-right: 6.2vw;
   float: right;
 }
 .city1 {
-  width: 348px;
-  height: 182px;
+  width: 25vw;
+  height: 15vw;
   background: url('../images/ramka4.svg');
-  margin-left: 18px;
-  margin-top: 14px;
+  background-size: 24.23vw;
+  margin-left: 1.2vw;
+  margin-top: -2.7vw;
   background-repeat: no-repeat;
-  padding: 15px 0;
+  padding: 1.2vw 0;
 }
 .city1 > .ramka1 {
-  width: 308px;
-  height: 143px;
-  margin: 0 auto;
+  width: 21.3vw;
+  height: 9.9vw;
+  margin: 0 1.2vw;
 }
 .setka3 {
-  width: 316px;
-  height: 151px;
+  width: 22vw;
+  height: 8vw;
   background: url('../images/setka3.svg');
-  margin-left: -4px;
-  margin-top: -4px;
-  padding: 17px 0;
+  background-size: 22vw;
+  margin-left: -0.4vw;
+  margin-top: -0.3vw;
+  padding: 1.2vw 0;
 }
 .setka3 > h2 {
-  margin-left: 26px;
+  margin-left: 1.8vw;
   font-weight: bold;
 }
 .setka3 > div > h4:nth-of-type(2n+1) {
-  height: 22px;
   font-weight: bold;
-  margin-left: 25px;
+  margin-left: 1.8vw;
   display: inline-block;
 }
 .setka3 > div > h4:nth-of-type(2n+2) {
-  height:22px;
   font-weight: normal;
   display: inline-block;
 }
 .setka3 div:nth-of-type(1){
-  margin-top: 3px;
+  margin-top: 0.1vw;
+}
+.setka3 > div {
+  margin-top: 0.4vw;
 }
 /* радар */
 .radar {
-  width: 241px;
-  height: 230px;
+  width: 15vw;
+  height: 14vw;
   display: inline-block;
-  margin-top: -234px;
+  margin-top: -16.1vw;
+  margin-right: 1.7vw;
   float: right;
 }
 .radar1 {
-  width: 173px;
-  height: 173px;
+  width: 12vw;
+  height: 12vw;
   background: url('../images/ramka5.svg');
+  background-size: 12vw;
   background-repeat: no-repeat;
-  margin-left: 3px;
-  margin-top: 18px;
-  padding: 13px 0;
+  margin-left: 0.1vw;
+  margin-top: 1.3vw;
+  padding: 0.9vw 0;
 }
 .cir {
-  width: 130px;
-  height: 130px;
-  border: 9px solid #0076BE;
-  margin: 0 auto;
+  width: 9vw;
+  height: 9vw;
+  border: 0.6vw solid #0076BE;
+  margin: 0 1vw;
   border-radius: 100%;
   overflow: hidden;
 }
 .c001 {
-  width: 141px;
-  height: 2px;
+  width: 10vw;
+  height: 0.2vw;
   background: #0076BE;
 }
 .cir > div:nth-of-type(1) {
-  margin-left: -4px;
+  margin-left: -0.2vw;
   transform: rotate(45deg);
-  margin-top: 65px;
+  margin-top: 4.65vw;
 }
 .cir > div:nth-of-type(2) {
-  margin-left: -8px;
+  margin-left: -0.8vw;
   transform: rotate(-45deg);
 }
 .cir > div:nth-of-type(3) {
-  margin-left: -2px;
-  margin-top: -5px;
+  margin-top: -0.6vw;
 }
 .cir > div:nth-of-type(4) {
-  margin-left: -5px;
+  margin-left: -0.5vw;
   transform: rotate(90deg);
 }
 .cir1 {
-  border: 2px solid #0076BE;
+  border: 0.14vw solid #0076BE;
   border-radius: 100%;
   margin: 0 auto;
-  padding: 14px 0;
+  padding: 0.77vw 0;
 }
 .cc1 {
-  width: 110px;
-  height: 82px;
-  margin-top: -61px;
+  width: 7.6vw;
+  height: 6.1vw;
+  margin-top: -4.2vw;
 }
 .cc2 {
-  width: 78px;
-  height: 50px;
+  width: 5.5vw;
+  height: 4vw;
+  margin-top: 0.1vw;
 }
 .cc3 {
-  width: 47px;
-  height: 19px;
+  width: 3.3vw;
+  height: 1.7vw  ;
+  margin: 0.2vw 1vw;
 }
 .cc4 {
-  width: 15px;
-  height: 15px;
+  width: 1vw;
+  height: 1vw;
   border-radius: 100%;
   background: #0076BE;
-  margin: 0 auto;
-  margin-top: 2px;
+  margin-left: 1.13vw;
+  margin-top: 0.36vw;
 }
 .gradient {
-  width: 174px;
-  height: 173px;
+  width: 12vw;
+  height: 12vw;
   background: url('../images/gradient.svg');
-  margin-left: -24px;
-  margin-top: -142px;
+  background-size: 12.2vw;
+  margin-left: -1.6vw;
+  margin-top: -9.7vw;
   transform: rotate(0deg);
   animation: anim 3s linear infinite;
 }
@@ -638,30 +654,35 @@ h5 {
   100% {transform: rotate(360deg);}
 }
 .or {
-  width: 174px;
-  height: 173px;
-  margin-left: -22px;
-  margin-top: -174px;
+  width: 12vw;
+  height: 12vw;
+  margin-left: -1.6vw;
+  margin-top: -12vw;
   animation: anim 3s linear infinite, opacityy .4s alternate infinite;
 }
 .anim > div:nth-of-type(2){
   background: url('../images/circle1.svg');
+  background-size: 11vw;
 }
 .anim > div:nth-of-type(3){
   background: url('../images/circle2.svg');
+  background-size: 11vw;
   animation: anim 3s linear infinite, opacityy .8s alternate infinite;
 
 }
 .anim > div:nth-of-type(4){
   background: url('../images/circle3.svg');
+  background-size: 11vw;
 }
 .anim > div:nth-of-type(5){
   background: url('../images/circle4.svg');
+  background-size: 11vw;
   animation: anim 3s linear infinite, opacityy1 .4s alternate infinite;
 
 }
 .anim > div:nth-of-type(6){
   background: url('../images/circle5.svg');
+  background-size: 11vw;
   animation: anim 3s linear infinite, opacityy1 .8s alternate infinite;
 
 }
@@ -671,292 +692,254 @@ h5 {
 }
 /* вторая синяя деталь */
 .shtuka2 {
-  margin-left: 11px;
+  margin: -11vw 1vw;
 }
 /* информация о пользователе */
 .person {
-  width: 393px;
-  height: 701px;
+  width: 28vw;
+  height: 49vw;
   display: inline-block;
   background: url('../images/ramka6.svg');
+  background-size: 27.3vw;
   background-repeat: no-repeat;
-  margin-left: 46px;
-  margin-top: 45px;
-  padding: 16px 0;
+  margin-left: 3.2vw;
+  margin-top: 14.8vw;
+  padding: 1.1vw 0;
 }
 .person > .ramka1 {
-  width: 353px;
-  height: 690px;
-  margin: 0 auto;
+  width: 24.6vw;
+  height: 48vw;
+  margin: 0 1.1vw;
   overflow: visible;
 }
 .person > .ramka1 > .r1{
-  width: 144px;
-  height: 208px;
-  margin: -4px -4px;
+  width: 10vw;
+  height: 14.5vw;
+  margin: -0.25vw -0.2vw;
   display: inline-block;
 }
 .info > h2 {
-  font-weight: bold;;
-  margin-top: 6px;
-  margin-right:  3px;
+  font-weight: bold;
+  font-size: 1.24vw;
+  margin-top: 0.5vw;
+  margin-left: 0.5vw;
 }
 .info {
+  height: 14.7vw;
   display: inline-block;
   float: right;
 }
 .info > div > h5 {
+  font-size: 0.82vw;
   display: inline-block;
 }
+
 .info > div:nth-of-type(1), .info > div:nth-of-type(2), .info > div:nth-of-type(3) {
-  margin-top: 3px;
+  margin-left: 0.5vw;
+}
+.info > div:nth-of-type(1) {
+  margin-top: 0.1vw;
 }
 .info > div > h5:nth-of-type(1){
-  margin-right: 3px;
+  margin-right: 0.2vw;
   font-weight: bold;
 }
 .info > div:nth-of-type(1) > h5:nth-of-type(2), .info > div:nth-of-type(2) > h5:nth-of-type(2){
-  margin-left: -4px;
+  margin-left: -0.4vw;
 }
 .sred {
-  margin-left: 5px;
+  margin-left: 0.2vw;
 }
 .puls {
-  width: 183px;
-  height: 108px;
+  width: 12.7vw;
+  height: 7.5vw;
   display: inline-block;
-  margin-right: 3px;
-  margin-top: 7px;
+  margin: 0.9vw 0.6vw;
 }
 .setkaa {
-  width: 187px;
-  height: 112px;
-  background: url('../images/setka4.svg');
-  margin-left: -4px;
-  padding: 12px 0;
+  width: 14vw;
+  height: 7vw;
+  background: url(../images/setka4.svg);
+  margin-left: -0.3vw;
+  padding: 0.7vw 0;
 }
 .puls1 {
-  width: 183px;
-  height: 67px;
+  width: 14vw;
+  height: 3.7vw;
   background: url('../images/puls1.svg');
+  background-size: 66vw;
   background-repeat: repeat;
-  margin-left: 4px;
-  animation: puls 30s linear infinite;
+  margin-top: 1vw;
+  animation: puls 15s linear infinite;
 }
 @keyframes puls {
-  0% {background-position: 0px;}
-  100% {background-position: -1191px;}
+  0% {background-position: -100%;}
+  100% {background-position: 0;}
 }
 .photo {
-  width: 149px;
-  height: 214px;
+  width: 10vw;
+  height: 16vw;
   background: url('../images/photo.png');
-  margin: -4px -1px;
+  background-size: 10.3vw;
+  margin: -0.3vw -0.2vw;
 }
 .setkaa > p {
-  font-size: 6px;
+  font-size: 0.5vw;
   color: #D65B34;
-  margin-top: 2px;
-  margin-left: 12px;
-  line-height: 137%;
+  margin-top: 0.3vw;
+  margin-left: 0.6vw;
 }
 .person > .ramka1 >h2 {
   font-weight: bold;
-  margin-top: 9px;
-  margin-left: 12px;
+  margin-top: 0.6vw;
+  margin-left: 0.8vw;
 }
 .person > .ramka1 > div:nth-of-type(3), .person > .ramka1 > div:nth-of-type(4), .person > .ramka1 > div:nth-of-type(5) {
-  margin-left: 12px;
-  margin-top: 3px;
+  margin-left: 0.9vw;
+  margin-top: 0.2vw;
   display: inline-block;
 }
 .person > .ramka1 > div:nth-of-type(3) {
-  margin-top:4px;
+  margin-top: 0.2vw;
 }
 .person > .ramka1 > div > h5:nth-of-type(1) {
   font-weight: bold;
 }
 .person > .ramka1 > div > h5:nth-of-type(2) {
-  margin-left: -1px;
+  margin-left: -0.1vw;
 }
 .person > .ramka1 > h3:nth-of-type(1) {
-  margin-left: 12px;
-  margin-top: 22px;
+  margin-left: 0.8vw;
+  margin-top: 1.6vw;
 }
 .r2 {
-  width: 310px;
-  height: 20px;
-  margin-left: 12px;
-  margin-top: 9px;
-  animation: shkala0 5s steps(1) alternate infinite;
+  width: 21.5vw;
+  height: 1.3vw;
+  margin-left: 0.9vw;
+  margin-top: 0.6vw;
+  animation: shkala0 3s steps(1) alternate infinite;
 }
 .r2 > div {
-  width: 310px;
-  height: 20px;
+  width: 21.5vw;
+  height: 2vw;
   background: url('../images/shkala.svg');
-  background-position: 0 -90px;
-  animation: shkala 5s steps(1) alternate infinite;
+  background-size: 23.4vw;
+  background-position: 0vw -100vw;
+  animation: shkala 3s steps(1) alternate infinite;
 }
 @keyframes shkala0 {
-  59% {border: 4px solid #0076BE;}
-  60% {border: 4px solid #D65B34;}
+  27% {border: 0.27vw solid #0076BE;}
+  28% {border: 0.27vw solid #D65B34;}
 }
 @keyframes shkala {
-  0% {background-position: 0 -90px;}
-  3% {background-position: 0 -120px;}
-  6% {background-position: 0 -150px;}
-  9% {background-position: 0 -180px;}
-  12% {background-position: 0 -210px;}
-  15% {background-position: 0 -240px;}
-  18% {background-position: 0 -270px;}
-  21% {background-position: 0 -300px;}
-  24% {background-position: 0 -330px;}
-  27% {background-position: 0 -360px;}
-  30% {background-position: 0 -390px;}
-  33% {background-position: 0 -420px;}
-  36% {background-position: 0 -450px;}
-  39% {background-position: 0 -480px;}
-  42% {background-position: 0 -510px;}
-  45% {background-position: 0 -540px;}
-  48% {background-position: 0 -570px;}
-  51% {background-position: 0 -600px;}
-  54% {background-position: 0 -630px;}
-  57% {background-position: 0 -660px;}
-  60% {background-position: 0 -690px;}
-  63% {background-position: 0 -720px;}
-  66% {background-position: 0 -750px;}
-  69% {background-position: 0 -780px;}
-  72% {background-position: 0 -810px;}
-  75% {background-position: 0 -840px;}
-  78% {background-position: 0 -870px;}
-  80% {opacity: 1;}
+  0% {background-position: 0 97vw;}
+  7% {background-position: 0 95vw;}
+  14% {background-position: 0 93vw;}
+  21% {background-position: 0 91vw;}
+  28% {background-position: 0 89vw;}
+  35% {background-position: 0 87vw;}
+  42% {background-position: 0 85vw;}
+  47% {background-position: 0 83vw;}
+  56% {background-position: 0 85vw;}
+  63% {opacity: 1;}
+  70% {opacity: 0;}
+  77% {opacity: 1;}
   84% {opacity: 0;}
-  88% {opacity: 1;}
-  92% {opacity: 0;}
-  96% {opacity: 1;}
+  91% {opacity: 1;}
   100% {opacity: 0;}
 }
 .person > .ramka1 > h3:nth-of-type(2) {
-  margin-left: 12px;
-  margin-top: 15px;
+  margin-left: 0.8vw;
+  margin-top: 1.1vw;
 }
 .person > .ramka1 > h5 {
-  margin-left: 12px;
-  margin-top: 17px;
+  margin-left: 0.9vw;
+  margin-top: 1.2vw;
 }
 .r3 {
-  width: 310px;
-  height: 20px;
-  margin-left: 12px;
-  margin-top: 2px;
+  width: 21.5vw;
+  height: 1.3vw;
+  margin-left: 0.8vw;
+  margin-top: 0.2vw;
   background: url('../images/shkala1.svg');
+  background-size: 23.4vw;
 }
 .r001 {
-  background-position: 0 -330px;
-  animation: shkala1 3s steps(1) alternate infinite;
+  background-position: 0 -100vw;
+  animation: shkala1 1s steps(1) alternate infinite;
 }
 @keyframes shkala1 {
-  0% {background-position: 0 -330px;}
-  7% {background-position: 0 -360px;}
-  14% {background-position: 0 -390px;}
-  21% {background-position: 0 -420px;}
-  28% {background-position: 0 -390px;}
-  35% {background-position: 0 -360px;}
-  42% {background-position: 0 -330px;}
-  49% {background-position: 0 -300px;}
-  55% {border: 4px solid #0076BE}
-  56% {background-position: 0 -270px; border: 4px solid #D65B34;}
-  63% {background-position: 0 -240px;}
-  70% {background-position: 0 -210px;}
-  77% {background-position: 0 -180px;}
-  84% {background-position: 0 -150px;}
-  91% {background-position: 0 -120px;}
-  98% {background-position: 0 -90px;}
+  0% {background-position: 0 -92vw;}
+  12% {background-position: 0 -96vw;}
+  24% {background-position: 0 -98vw;}
+  36% {background-position: 0 -100vw;}
+  48% {background-position: 0 -102vw;}
+  60% {background-position: 0 -100vw;}
+  72% {background-position: 0 -98vw;}
+  84% {background-position: 0 -96vw;}
+  96% {border: 0.27vw solid #0076BE}
 
 }
 .r002 {
-  background-position: 0 -600px;
-  animation: shkala2 3s steps(1) alternate infinite;
+  background-position: 0 -93vw;
+  animation: shkala2 2s steps(1) alternate infinite;
 }
 @keyframes shkala2 {
-  0% {background-position: 0 -600px;}
-  4% {background-position: 0 -630px;}
-  8% {background-position: 0 -660px;}
-  12% {background-position: 0 -690px;}
-  16% {background-position: 0 -720px;}
-  20% {background-position: 0 -750px;}
-  24% {background-position: 0 -780px;}
-  28% {background-position: 0 -810px;}
-  32% {background-position: 0 -840px;}
-  36% {background-position: 0 -870px;}
-  40% {background-position: 0 -840px;}
-  44% {background-position: 0 -810px;}
-  48% {background-position: 0 -780px;}
-  52% {background-position: 0 -750px;}
-  56% {background-position: 0 -720px;}
-  60% {background-position: 0 -690px;}
-  64% {background-position: 0 -660px;}
-  68% {background-position: 0 -630px;}
-  72% {background-position: 0 -600px;}
-  76% {background-position: 0 -570px;}
-  80% {background-position: 0 -540px;}
-  84% {background-position: 0 -510px;}
-  88% {background-position: 0 -480px;}
-  92% {background-position: 0 -450px;}
-  96% {background-position: 0 -420px;}
-  100% {background-position: 0 -390px;}
+  0% {background-position: 0 -100.5vw;}
+  7% {background-position: 0 -102.5vw;}
+  14% {background-position: 0 -104.5vw;}
+  21% {background-position: 0 -106.5vw;}
+  28% {background-position: 0 -108.5vw;}
+  35% {background-position: 0 -110.5vw;}
+  42% {background-position: 0 -108.5vw;}
+  49% {background-position: 0 -106.5vw;}
+  56% {background-position: 0 -104.5vw;}
+  63% {background-position: 0 -106.5vw;}
+  70% {background-position: 0 -108.5vw;}
+  77% {background-position: 0 -110.5vw;}
+  84% {background-position: 0 -108.5vw;}
+  91% {background-position: 0 -106.5vw;}
+  100% {background-position: 0 -104.5vw;}
 }
 .r003 {
-  background: none;
-  animation: shkala03 2s steps(1) alternate infinite;
+  border: 0.27vw solid #0076BE;
 }
 .r003 > div {
-  width: 310px;
-  height: 20px;
+  width: 21.5vw;
+  height: 2vw;
   background: url('../images/shkala1.svg');
-  background-position: 0 -510px;
+  background-size: 23.4vw;
   animation: shkala3 2s steps(1) alternate infinite;
 }
-@keyframes shkala03 {
-  39% {border: 4px solid #0076BE;}
-  40% {border: 4px solid #D65B34;}
-}
 @keyframes shkala3 {
-  0% {background-position: 0 -510px;}
-  5% {background-position: 0 -480px;}
-  10% {background-position: 0 -450px;}
-  15% {background-position: 0 -420px;}
-  20% {background-position: 0 -390px;}
-  25% {background-position: 0 -360px;}
-  30% {background-position: 0 -330px;}
-  35% {background-position: 0 -300px;}
-  40% {background-position: 0 -270px;}
-  45% {background-position: 0 -240px;}
-  50% {background-position: 0 -210px;}
-  55% {background-position: 0 -180px;}
-  60% {background-position: 0 -150px;}
-  65% {background-position: 0 -120px;}
-  70% {background-position: 0 -90px;}
-  74% {opacity: 1;}
-  78% {opacity: 0;}
-  82% {opacity: 1;}
-  86% {opacity: 0;}
-  90% {opacity: 1;}
-  94% {opacity: 0;}
-  98% {opacity: 1;}
+  0% {background-position: 0 -81.5vw;}
+  7% {background-position: 0 -83.5vw;}
+  14% {background-position: 0 -85.5vw;}
+  21% {background-position: 0 -87.5vw;}
+  28% {background-position: 0 -85.5vw;}
+  35% {background-position: 0 -83.5vw;}
+  42% {background-position: 0 -81.5vw;}
+  49% {background-position: 0 -79.5vw;}
+  56% {opacity: 1;}
+  63% {opacity: 0;}
+  70% {opacity: 1;}
+  77% {opacity: 0;}
+  84% {opacity: 1;}
+  91% {opacity: 0;}
+  100% {opacity: 1;}
 }
 .person > .ramka1 >div:nth-last-of-type(1) {
-  width: 318px;
-  height: 29px;
+  width: 21.96vw;
+  height: 2vw;
   background: #D65B34;
-  margin-left: 12px;
-  margin-top: 23px;
-  padding: 11px 0px;
+  margin-left: 0.9vw;
+  margin-top: 1.9vw;
+  padding: 0.7vw 0vw;
 }
 .person > .ramka1 >div > p {
   color: white;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 2.1vw;
   text-align: center;
   animation: opacityy .4s alternate infinite;
   animation-play-state: paused;
@@ -966,350 +949,148 @@ h5 {
 }
 /* карта */
 .mapp {
-  width: 955px;
-  height: 977px;
+  width: 66.9vw;
+  height: 67vw;
   display: inline-block;
   float: right;
   background: url('../images/ramka7.svg');
+  background-size: 66.3vw;
   background-repeat: no-repeat;
-  padding: 16px 0;
-  margin-right: 42px;
-  margin-top: 45px;
+  padding: 1.1vw 0;
+  margin-right: 2.3vw;
+  margin-top: -51.2vw;
 }
 .mr{
-  width: 915px;
-  height: 937px;
-  margin: 0 auto;
+  width: 63.5vw;
+  height: 65vw;
+  margin: 0 1vw;
 }
 .map01 {
-  width: 923px;
-  height: 945px;
+  width: 66vw;
+  height: 66vw;
   background: url('../images/map01.png');
-  margin: -3px -4px;
+  background-size: 64vw;
+  margin: -0.6vw -0.2vw;
 }
 .tochka {
-  width: 24px;
-  height: 16px;
+  width: 1.6vw;
+  height: 1vw;
   background: #0076BE;
   border-radius: 100%;
-  padding: 4px 0;
+  padding: 0.4vw 0;
 }
 .tochka > div {
-  width: 13px;
-  height: 13px;
-  border: 1px solid #2B2A2B;
+  width: 0.8vw;
+  height: 0.8vw;
+  border: 0.1vw solid #2B2A2B;
   margin: 0 auto;
-  border-radius: 100%
+  border-radius: 100%;
 }
 .t1 {
-  margin:  -58px 268px;
+  margin: -4vw 18.7vw;
 }
 .t2 {
-  margin: -226px 675px;
+  margin: -15.8vw 47vw;
 }
 .t3 {
-  margin: 61px  415px;
+  margin: 4vw 29vw;
 }
 .t4 {
-  margin: -12px  171px;
+  margin: -0.7vw 12vw;
 }
 .t5 {
-  margin:  -498px  849px;
+  margin: -34.7vw 59vw;
 }
 .t6 {
-  margin: 467px  52px;
+  margin: 32.4vw 3.8vw;
 }
 .persononthemap {
-  width: 286px;
-  height: 553px;
-  margin: -471px 543px;
+  width: 20vw;
+  height: 40vw;
+  margin: -32.8vw 37.7vw;
 }
 .persononthemap > div:nth-of-type(1) {
-  width: 286px;
-  height: 264px;
+  width: 19.9vw;
+  height: 18.4vw;
   background: url('../images/rectangle.svg');
+  background-size: 20vw;
 }
 .photoo {
-  width: 284px;
-  height: 284px;
+  width: 19vw;
+  height: 19vw;
   background: url('../images/photoo.png');
-  margin:px 1px;
+  background-size: 20vw;
 }
-
 .persononthemap > div:nth-of-type(3) {
-  width: 286px;
-  height: 237px;
+  width: 19.9vw;
+  height: 16.4vw;
   background: url('../images/danger.png');
-  margin: -490px 0px;
+  background-size: 20vw;
+  margin: -34.1vw 0vw;
 }
 .r01 {
-  width:282px;
-  height: 38px;
-  border: 2px solid #0076BE;
+  width: 19.6vw;
+  height: 2.6vw;
+  border: 0.13vw solid #0076BE;
   background: #2B2A2B;
-  margin: 212px 0px;
+  margin: 14.9vw 0vw;
 }
 .r01 > div {
-  width: 285px;
-  height: 50px;
+  width: 20vw;
+  height: 2vw;
   background: url('../images/ramka13.svg');
+  background-size: 19.8vw;
   background-repeat: no-repeat;
-  padding: 12px 0;
-  margin:-6px -2px;
+  padding: 0.8vw 0;
+  margin: -0.4vw -0.1vw;
 }
 .r01 > div > h2 {
   text-align: center;
 }
 .persononthemap > div:nth-of-type(2) {
-  width:56px;
-  height: 56px;
+  width: 4vw;
+  height: 4vw;
   border-radius: 100%;
   background: #0076BE;
-  margin: 233px 115px;
+  margin: 16.2vw 8vw;
 }
 /* график */
 .grafic {
-  width: 393px;
-  height: 240px;
+  width: 29vw;
+  height: 15vw;
   background: url('../images/ramka8.svg');
-  margin-left: 46px;
+  background-size: 27.3vw;
+  margin-left: 3.2vw;
+  margin-top: -0.3vw;
   background-repeat: no-repeat;
-  padding: 16px 0;
+  padding: 1.1vw 0;
 }
-.mrr {
-  width: 353px;
-  height: 204px;
-  margin: 0 auto;
-}
-.orange {
-  width: 355px;
-  height: 185px;
-  margin: 21px 6px;
-}
-.orange > div {
-  background: #D65B34;
-  width:23px;
-  display: inline-block;
-  margin-left:-10px;
-}
-.orange > div:nth-of-type(1) {
-  height: 98px;
-  animation: or1 .8s steps(1) alternate infinite;
-}
-@keyframes or1 {
-  29% {height: 98px;}
-  30% {height: 121px;}
-  59% {height: 121px;}
-  60% {height: 144px;}
-}
-.orange > div:nth-of-type(2) {
-  height: 52px;
-  animation: or2 1s steps(1) alternate infinite;
-}
-@keyframes or2 {
-  19% {height: 52px;}
-  20% {height: 29px;}
-  39% {height: 29px;}
-  40% {height: 52px;}
-  59% {height: 52px;}
-  60% {height: 75px;}
-  79% {height: 75px;}
-  80% {height: 98px;}
-}
-.orange > div:nth-of-type(3) {
-  height: 75px;
-  margin-left: -9px;
-  animation: or3 .6s steps(1) alternate infinite;
-}
-@keyframes or3 {
-  19% {height: 75px;}
-  20% {height: 98px;}
-  39% {height: 98px;}
-  40% {height: 121px;}
-  59% {height: 121px;}
-  60% {height: 144px;}
-  79% {height: 144px;}
-  80% {height: 167px;}
-}
- .orange > div:nth-of-type(4) {
-  height: 144px;
-  margin-left: -9px;
-  animation: or4 1s steps(1) alternate infinite;
-}
-@keyframes or4 {
-  19% {height: 144px;}
-  20% {height: 121px;}
-  39% {height: 121px;}
-  40% {height: 98px;}
-  59% {height: 98px;}
-  60% {height: 75px;}
-  79% {height: 75px;}
-  80% {height: 52px;}
-}
-.orange > div:nth-of-type(5) {
-  height: 144px;
-  animation: or5 .6s steps(1) alternate infinite;
-}
-@keyframes or5 {
-  19% {height: 144px;}
-  25% {height: 167px;}
-  39% {height: 167px;}
-  50% {height: 144px;}
-  59% {height: 144px;}
-  75% {height: 121px;}
-}
-.orange > div:nth-of-type(6) {
-  height: 167px;
-  animation: or6 1s steps(1) alternate infinite;
-}
-@keyframes or6 {
-  29% {height: 167px;}
-  30% {height: 144px;}
-  59% {height: 144px;}
-  60% {height: 121px;}
-  89% {height: 121px;}
-  90% {height: 98px;}
-}
-.orange > div:nth-of-type(7) {
-  height: 190px;
-  margin-left: -9px;
-  animation: or7 .5s steps(1) alternate infinite;
-}
-@keyframes or7 {
-  29% {height: 190px;}
-  30% {height: 167px;}
-  59% {height: 167px;}
-  60% {height: 144px;}
-  89% {height: 144px;}
-  90% {height: 121px;}
-}
-.orange > div:nth-of-type(8) {
-  height: 121px;
-  animation: or8 .4s steps(1) alternate infinite;
-}
-@keyframes or8 {
-  29% {height: 121px;}
-  30% {height: 144px;}
-  59% {height: 144px;}
-  60% {height: 167px;}
-  89% {height: 167px;}
-  90% {height: 190px;}
-}
-.orange > div:nth-of-type(9) {
-  height: 75px;
-  animation: or9 .8s steps(1) alternate infinite;
-}
-@keyframes or9 {
-  29% {height: 75px;}
-  30% {height: 98px;}
-  59% {height: 98px;}
-  60% {height: 121px;}
-  89% {height: 121px;}
-  90% {height: 144px;}
-}
-.orange > div:nth-of-type(10) {
-  height: 98px;
-  animation: or10 1s steps(1) alternate infinite;
-}
-@keyframes or10 {
-  29% {height: 98px;}
-  30% {height: 75px;}
-  59% {height: 75px;}
-  60% {height: 98px;}
-  89% {height: 98px;}
-  90% {height: 121px;}
-}
-.orange > div:nth-of-type(11) {
-  height: 75px;
-  animation: or11 .7s steps(1) alternate infinite;
-}
-@keyframes or11 {
-  29% {height: 76px;}
-  30% {height: 98px;}
-  59% {height: 98px;}
-  60% {height: 121px;}
-  89% {height: 121px;}
-  90% {height: 144px;}
-}
-.orange > div:nth-of-type(12) {
-  height: 52px;
-  animation: or12 .5s steps(1) alternate infinite;
-}
-@keyframes or12 {
-  29% {height: 52px;}
-  30% {height: 29px;}
-  59% {height: 29px;}
-  60% {height: 52px;}
-  89% {height: 52px;}
-  90% {height: 75px;}
-}
-.orange > div:nth-of-type(13) {
-  height: 121px;
-  margin-left: -9px;
-  animation: or13 .5s steps(1) alternate infinite;
-}
-@keyframes or13 {
-  44% {height: 121px;}
-  45% {height: 98px;}
-  89% {height: 98px;}
-  90% {height: 75px;}
-}
-.orange > div:nth-of-type(14) {
-  height: 168px;
-  animation: or14 .7s steps(1) alternate infinite;
-}
-@keyframes or14 {
-  29% {height: 167px;}
-  30% {height: 190px;}
-  59% {height: 190px;}
-  60% {height: 167px;}
-  89% {height: 167px;}
-  90% {height: 144px;}
-}
-.orange > div:nth-of-type(15) {
-  height: 190px;
-  margin-left: -9px;
-  animation: or15 .8s steps(1) alternate infinite;
-}
-.orange > div:nth-of-type(16) {
-  height: 98px;
-  width: 16px;
-  animation: or16 1s steps(1) alternate infinite;
-}
-@keyframes or16 {
-  29% {height: 98px;}
-  30% {height: 121px;}
-  59% {height: 121px;}
-  60% {height: 144px;}
-  89% {height: 144px;}
-  90% {height: 167px;}
-}
-.setka5 {
-  width: 357px;
-  height: 208px;
-  margin: -228px -4px;
+.grafic > img {
+  width: 25.1vw;
+  margin: 0vw 1.1vw;
 }
 /* нижняя панель */
 .panell {
-  width:1440px;
-  height: 202px;
+  width: 100vw;
+  height: 19vw;
 }
 /* табло с кнопками погоды */
 .weather {
-  width: 351px;
-  height: 202px;
-  background: url('../images/ramka9.svg');
+  width: 24.34vw;
+  height: 14vw;
+  background: url(../images/ramka9.svg);
+  background-size: 24.4vw;
   display: inline-block;
   float: left;
-  margin: -1px 46px;
+  margin: 1.6vw 3.2vw;
 }
 .knop {
-  width: 140px;
-  height: 15px;
+  width: 9.7vw;
+  height: 1vw;
   background: #0076BE;
   display: inline-block;
-  margin: 18px 16px;
-  padding: 25px 0;
+  margin: 1.2vw 1.1vw;
+  padding: 1.8vw 0;
 }
 .weather > div:nth-of-type(1) {
   background: #D65B34;
@@ -1318,7 +1099,7 @@ h5 {
   float: right;
 }
 .weather > div:nth-of-type(3),.weather > div:nth-of-type(4)  {
-  margin-top: 21px;
+  margin-top: 1.4vw;
 }
 .knop > h4 {
   color: black;
@@ -1330,14 +1111,12 @@ h5 {
   transition: .5s;
 }
 .sos {
-  padding: 17px 0;
-  height: 32px;
-
+  padding: 1.2vw 0;
+  height: 2.2vw;
 }
 .oa {
-  font-size: 30px;
+  font-size: 2.2vw;
   opacity: 1;
-  font-weight: 300;
   animation: opacityy .4s linear infinite;
   animation-play-state: paused;
 }
@@ -1346,23 +1125,24 @@ h5 {
 }
 /* срочноо */
 .srochno {
-  width: 569px;
-  height: 200px;
-  background: url('../images/ramka11.svg');
+  width: 40vw;
+  height: 13vw;
+  background: url(../images/ramka11.svg);
+  background-size: 39.6vw;
   display: inline-block;
   background-repeat: no-repeat;
   float: left;
-  margin: -5px 0px;
-  padding: 18px 0;
+  margin-top: 0.5vw;
+  padding: 1.3vw 0;
 }
 .rr {
-  width: 529px;
-  height: 96px;
-  margin: 0 auto;
-  padding: 34px 0;
+  width: 36.8vw;
+  height: 6.6vw;
+  margin: 0 1.1vw;
+  padding: 2.4vw 0;
 }
 .rr > p {
-  font-size: 96px;
+  font-size: 6.6vw;
   font-weight: bold;
   text-align: center;
   color: white;
@@ -1374,143 +1154,159 @@ h5 {
 }
 /* время */
 .time {
-  width: 376px;
-  height: 200px;
+  width: 27vw;
+  height: 13vw;
   display: inline-block;
-  margin: -5px 10px;
-  background: url('../images/ramka12.svg');
+  margin: 0.5vw 0.2vw;
+  background: url(../images/ramka12.svg);
+  background-size: 26.2vw;
   background-repeat: no-repeat;
-  padding: 16px 0;
+  padding: 1.1vw 0;
 }
 .rr1 {
-  width: 336px;
-  height: 164px;
-  margin: 0 auto;
+  width: 23.4vw;
+  height: 11.4vw;
+  margin: 0 1.1vw;
 }
 .sun {
-  width: 122px;
-  height: 122px;
+  width: 8.5vw;
+  height: 8.5vw;
   display: inline-block;
   float: left;
-  background: url('../images/weather.svg');
-  margin: 17px 9px;
-  background-position: 0 0px;
-  animation: weather0 10s steps(1) infinite;
+  background: url(../images/weather.svg);
+  background-size: 8.5vw;
+  margin: 1.1vw 0.7vw;
+  background-position: 0 0vw;
+  animation: weather0 5s steps(1) infinite;
 }
 @keyframes weather0 {
-  0% {background-position: 0 0px;}
-  29% {background-position: 0 0px;}
-  30% {background-position: 0 -138px;}
-  59% {background-position: 0 -138px;}
+  0% {background-position: 0 0vw;}
+  60% {background-position: 0 18vw;}
 }
 .text {
-  width: 181px;
-  height: 99px;
-  margin: 36px 146px;
+  width: 13vw;
+  height: 6vw;
+  margin: 2.5vw 10.2vw;
 }
 .text > div {
   color: white;
   font-weight: 500;
-  font-size: 57px;
+  font-size: 4vw;
   display: inline-block;
 
 }
-
 .clock {
-  width: 300px;
-  height: 100px;
-  margin: 10px -69px;
+  width: 21vw;
+  height: 4vw;
+  margin: 0.8vw -4.9vw;
   position: relative;
   text-align: center;
   overflow: hidden;
 }
 .cl-e {
-  width: 38px;
-  height: 69px;
+  width: 1.9vw;
+  height: 6.9vw;
 }
 .num {
-  width: 60px;
+  width: 4vw;
   color: white;
-  line-height: 100px;
-  font-size: 57px;
+  line-height: 7vw;
+  font-size: 4vw;
   text-align: center;
   position: absolute;
-  margin: -26px -10px;
+  margin: -1.9vw -2.2vw;
 }
 .cl-d {
-  width: 30px;
-  height: 100px;
+  width: 2vw;
+  height: 8vw;
   vertical-align: top;
-  line-height: 70px;
+  line-height: 4.5vw;
   display: inline-block;
   font-weight: bold;
-  font-size: 57px;
+  font-size: 3.8vw;
   animation: blink .5s alternate linear infinite;
 }
 .sec-e {
-  animation: sec 5s steps(10) infinite;
+  animation: sec 5s steps(1) infinite;
+  margin: -1.8vw 0.8vw;
 }
 .sec-m {
-  animation: sec 300s steps(10) infinite;
+  margin: -1.9vw -1.3vw;
+  animation: sec 250s steps(1) infinite;
 }
 .sec-dm {
-  animation: sec 3000s steps(9) infinite;
+  animation: sec 2500s steps(1) infinite;
 }
 .sec-d {
-  animation: dec 30s steps(6) infinite;
+  animation: dec 25s steps(1) infinite;
+  margin: -1.8vw -0.1vw;
 }
 @keyframes sec {
-  0% {top: 0;}
-  100% {top: -1000%;}
+  0% {top: 0vw;}
+  10% {top: -7vw;}
+  20% {top: -14vw;}
+  30% {top: -21vw;}
+  40% {top: -28vw;}
+  50% {top: -35vw;}
+  60% {top: -42vw;}
+  70% {top: -49vw;}
+  80% {top: -56vw;}
+  90% {top: -63vw;}
+  100% {top: -70vw;}
 }
 @keyframes blink {
   0% {opacity: 1;}
   100% {opacity: 0;}
 }
 @keyframes dec {
-  0% {top: 0;}
-  100% {top: -600%;}
+  0% {top: 0vw;}
+  20% {top: -7vw;}
+  40% { top: -14vw;}
+  60% {top: -21vw;}
+  80% {top: -28vw;}
+  100% {top: -35vw;}
 }
 
 .clock > div {
   display: inline-block;
 }
 .text > div:nth-of-type(1){
-  font-size: 23px;
+  font-size: 1.6vw;
 }
 .clock > div:nth-of-type(1){
-  margin: 0px -1px;
+  margin: 0vw -0.1vw;
 }
 .clock > div:nth-of-type(2){
-  margin: 0px -39px;
+  margin: 0vw -2.8vw;
 }
 .clock > div:nth-of-type(3){
-  margin: -11px 1px;
+  margin: -0.6vw 0.1vw;
 }
 .clock > div:nth-of-type(4){
-  margin: 0px -39px;
+  margin: 0vw -2.6vw;
 }
 /* футер */
 .theend {
-  width: 1432px;
-  height: 106px;
-  margin: 59px 0px;
+  width: 99.45vw;
+  height: 7.4vw;
+  margin: 0.7vw 0vw;
 }
 .theend > div {
-  width: 1440px;
-  height: 142px;
-  margin: -4px -4px;
+  width: 100vw;
+  height: 10vw;
+  margin: -0.23vw -0.35vw;
   background: url('../images/setka6.svg');
+  background-size: 100vw;
 }
 .theend > div > h2:nth-of-type(1) {
   display: inline-block;
-  margin: 20px 78px;
+  margin: 1.4vw 5.5vw;
 }
 .theend > div > h2:nth-of-type(2) {
   display: inline-block;
   float: right;
-  margin: 20px 74px;
+  margin: 1.4vw 5vw;
 }
 .theend > div > h2:nth-of-type(3) {
-  margin: -10px 78px;
+  margin: -0.7vw 5.5vw;
 }
