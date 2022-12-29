@@ -978,6 +978,22 @@ h5 {
   background: #0076BE;
   border-radius: 100%;
   padding: 0.4vw 0;
+  animation: opacityy 1s alternate infinite;
+}
+.mr > div:nth-of-type(2) {
+  animation: opacityy 1s alternate infinite;
+}
+.mr > div:nth-of-type(4) {
+  animation: opacityy .8s alternate infinite;
+}
+.mr > div:nth-of-type(5) {
+  animation: opacityy 1s alternate infinite;
+}
+.mr > div:nth-of-type(6) {
+  animation: opacityy .7s alternate infinite;
+}
+.mr > div:nth-of-type(7) {
+  animation: opacityy .5s alternate infinite;
 }
 .tochka > div {
   width: 0.8vw;
