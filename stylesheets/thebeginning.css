@@ -978,7 +978,6 @@ h5 {
   background: #0076BE;
   border-radius: 100%;
   padding: 0.4vw 0;
-  animation: opacityy 1s alternate infinite;
 }
 .mr > div:nth-of-type(2) {
   animation: opacityy 1s alternate infinite;
@@ -1006,7 +1005,7 @@ h5 {
   margin: -4vw 18.7vw;
 }
 .t2 {
-  margin: -15.8vw 47vw;
+  margin: -15.7vw 47vw;
 }
 .t3 {
   margin: 4vw 29vw;
